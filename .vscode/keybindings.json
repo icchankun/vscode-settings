@@ -26,6 +26,14 @@
     "when": "workbench.explorer.openEditorsView.active"
   },
   {
+    "key": "cmd+y",
+    "command": "redo"
+  },
+  {
+    "key": "shift+cmd+z",
+    "command": "-redo"
+  },
+  {
     "key": "ctrl+t",
     "command": "workbench.action.tasks.runTask",
     "args": "Run RSpec test here"
