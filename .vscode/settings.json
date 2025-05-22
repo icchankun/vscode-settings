@@ -5,6 +5,11 @@
   "workbench.startupEditor": "none",
   "workbench.editor.wrapTabs": true,
   "workbench.editor.enablePreview": false,
+  "workbench.editor.openPositioning": "last",
+  "workbench.editor.focusRecentEditorAfterClose": false,
+  "workbench.colorCustomizations": {"tab.activeBackground": "#708090"},
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 5,
 
   // ========== Editor ==========
   "editor.fontSize": 18,
@@ -14,10 +19,8 @@
   "editor.formatOnType": true,
   "editor.insertSpaces": true,
   "editor.semanticHighlighting.enabled": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
+  "editor.minimap.enabled": false,
+  "[html][css][scss][json][jsonc][javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[ruby]": {
